@@ -5,7 +5,6 @@ int main(){
      while(cin >> s && !cin.eof())
      
      {
-        char ch[]={};
         sort(s.begin(),s.end());
         cout<<s;
      }
