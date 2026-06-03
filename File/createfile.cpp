@@ -8,7 +8,7 @@ class A{
     int number;
 
     //input function to take input from user
-    int input(){
+    void input(){
         cout<<"Enter name: ";
         getline(cin, name);
         cout<<"Enter email: ";
@@ -16,19 +16,29 @@ class A{
         cout<<"Enter your phone number: ";
         cin>>number;
     }
-//output function to display the output
-    int output(){
+
+    void output(){
         cout<<"Your name is: "<<name<<endl;
         cout<<"Your email is: "<<email<<endl;
-        cout<<"Your phone number is: "<<number<<endl;
+        cout<<"Your phone number is: 0"<<number<<endl;
+    }
+
+    void fileMaker(){
+        ofstream file("info.txt");
+        file<<"Your name is: "<<name<<endl;
+        file<<"Your email is: "<<email<<endl;
+        file<<"Your phone number is: 0"<<number<<endl;
+
+        file.close();
     }
 
 
-}
+};
 int main(){
     A obj;
     obj.input();
     obj.output();
-
+    obj.fileMaker();
     return 0;
+    
 }
