@@ -9,5 +9,7 @@ int main(){
     //push_back
     s.push_back('!');//single character can be added to the end of the string
     cout<<s<<endl;
+    s.pop_back();//removes the last character of the string
+    cout<<s<<endl;
     return 0;
 }
