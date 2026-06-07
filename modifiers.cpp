@@ -16,6 +16,13 @@ int main(){
     s.erase(5,1);//removes the character at index 5 and the next 1 character
     cout<<s<<endl;
 
+    //replace
+    s.replace(5,1," ");//replaces the character at index 5 and the next 1 character with a space
+    cout<<s<<endl;
+
+    //insert
+    s.insert(5," ");//inserts a space at index 5
+    cout<<s<<endl;
 
 
     return 0;
