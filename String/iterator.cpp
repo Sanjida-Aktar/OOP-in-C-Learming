@@ -16,7 +16,7 @@ int main(){
         //     cout<<s[i]<<" ";
         //  }
 
-        r
+    
         cout<<endl;
     return 0;
 }
