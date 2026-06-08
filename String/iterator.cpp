@@ -12,6 +12,11 @@ int main(){
         for(auto it=s.rbegin();it!=s.rend();it++){
             cout<<*it<<" ";
         }
+        //  for(int i=s.size()-1;i>=0;i--){
+        //     cout<<s[i]<<" ";
+        //  }
+
+        r
         cout<<endl;
     return 0;
 }
