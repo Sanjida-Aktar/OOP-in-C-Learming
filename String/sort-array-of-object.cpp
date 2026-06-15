@@ -11,6 +11,7 @@ class Student{
         this->roll=roll;
         this->marks=marks;
     }
+    Student(){}
 };
 bool cmp(Student a,Student b){
     // if(a.marks==b.marks){
